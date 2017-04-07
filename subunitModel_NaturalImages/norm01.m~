@@ -1,0 +1,4 @@
+function y = norm01(x,p)
+ % normalize so that p percentile is 1        
+ y = (x-min(x))./(max(x)-min(x));
+end
